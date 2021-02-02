@@ -9,7 +9,8 @@
     body{
         background-color: teal;
         color: salmon;
-        font
+        font-family: monospace;
+        font-size: 50px;
     }
 
     div.page{
@@ -28,7 +29,6 @@
     <script>
         //Model
         var chosen = ''
-        
 
 
         //View
@@ -44,8 +44,10 @@
         }
 
         //Controller
-        function play() {
-            
+        function play(chosenpic) {
+            chosen = chosenpic.id
+
+
             
         }
 
